@@ -39,7 +39,7 @@ xRetry is a .NET library that provides retry functionality for flickering test c
 ## Build and Development
 
 ### Prerequisites
-- .NET SDK 8.0 or higher (CI uses .NET 8.0 container, current local version is 10.0.102)
+- .NET SDK 8.0 or higher (CI uses .NET 8.0 container)
 - `make` utility (optional but recommended)
 - Docker (optional, for exact CI environment)
 
