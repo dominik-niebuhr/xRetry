@@ -39,7 +39,7 @@ xRetry is a .NET library that provides retry functionality for flickering test c
 ## Build and Development
 
 ### Prerequisites
-- .NET SDK 8.0+ (specifically 10.0.102 or higher)
+- .NET SDK 8.0 or higher (CI uses .NET 8.0 container, current local version is 10.0.102)
 - `make` utility (optional but recommended)
 - Docker (optional, for exact CI environment)
 
@@ -191,7 +191,7 @@ Versions are defined in `build/Makefile`:
 - `XRETRY_VERSION` - xRetry (xUnit v2) package version
 - `XRETRY_V3_VERSION` - xRetry.v3 (xUnit v3) package version
 - `XRETRY_SPECFLOW_VERSION` - xRetry.SpecFlow package version
-- `XRETRY_REQNOLL_VERSION` - xRetry.Reqnroll package version
+- `XRETRY_REQNOLL_VERSION` - xRetry.Reqnroll package version (note: variable name has typo, one 'L')
 
 ## Key Architectural Notes
 
